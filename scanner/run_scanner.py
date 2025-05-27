@@ -1,6 +1,6 @@
 # This is our entry file that a we use to run the application.
-from scanner_utils import parse_port_input
-from port_scanner import scan_ports
+from scanner.scanner_utils import parse_port_input
+from scanner.port_scanner import scan_ports
 
 def main():
     target = input("Enter IP address to scan (default 127.0.0.1): ") or "127.0.0.1"

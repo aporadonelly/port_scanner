@@ -1,7 +1,7 @@
 # This file is for main scanning logic, threading, queue management
 import socket
 from datetime import datetime
-from logger import setup_logger
+from scanner.logger import setup_logger
 
 logger = setup_logger()
 
