@@ -3,7 +3,8 @@ from scanner.scanner_utils import parse_port_input
 from scanner.port_scanner import scan_ports
 
 def main():
-    target = input("Enter IP address to scan (default 127.0.0.1): ") or "127.0.0.1"
+    # target = input("Enter IP address to scan (default 127.0.0.1): ") or "127.0.0.1"
+    target = (input("Enter IP address to scan (default 127.0.0.1): ") or "127.0.0.1").strip() #added strip() to remove extra spaces
     start_port = input("Enter start port (default 1): ")
     end_port = input("Enter end port (default 1024): ")
 

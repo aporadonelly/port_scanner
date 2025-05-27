@@ -9,3 +9,71 @@
 2025-05-27 20:37:18,481 - port_scanner - INFO - [+] Port 22 is open
 2025-05-27 20:37:30,558 - port_scanner - INFO - [+] Port 80 is open
 2025-05-27 20:37:30,559 - port_scanner - INFO - Scan completed in 0:00:12.711288
+2025-05-27 20:57:24,284 - port_scanner - INFO - Scanning scanme.nmap.org	 from port 70 to 100
+2025-05-27 20:58:06,380 - port_scanner - INFO - Scanning scanme.nmap.org	 from port 20 to 80
+2025-05-27 20:59:50,724 - port_scanner - INFO - Scanning scanme.nmap.org	 from port 70 to 100
+2025-05-27 21:00:50,466 - port_scanner - INFO - Scanning scanme.nmap.org from port 20 to 100
+2025-05-27 21:00:51,242 - port_scanner - INFO - [+] Port 22 is open
+2025-05-27 21:01:03,088 - port_scanner - INFO - [+] Port 80 is open
+2025-05-27 21:01:06,600 - port_scanner - INFO - Scan completed in 0:00:16.132782
+2025-05-27 21:01:46,996 - port_scanner - INFO - Scanning scanme.nmap.org	 from port 70 to 100
+2025-05-27 21:03:49,611 - port_scanner - INFO - Scanning scanme.nmap.org from port 20 to 80
+2025-05-27 21:03:50,171 - port_scanner - INFO - [+] Port 22 is open
+2025-05-27 21:04:03,396 - port_scanner - INFO - [+] Port 80 is open
+2025-05-27 21:04:03,397 - port_scanner - INFO - Scan completed in 0:00:13.784241
+2025-05-27 21:05:53,186 - port_scanner - INFO - Scanning 127.0.0.1 from port 20 to 100
+2025-05-27 21:05:53,194 - port_scanner - INFO - Scan completed in 0:00:00.006812
+2025-05-27 21:08:01,104 - port_scanner - INFO - Scanning 127.0.0.1 from port 1 to 1024
+2025-05-27 21:08:01,111 - port_scanner - INFO - [+] Port 80 is open
+2025-05-27 21:08:01,154 - port_scanner - INFO - Scan completed in 0:00:00.048754
+2025-05-27 21:08:54,544 - port_scanner - INFO - Scanning 127.0.0.1 from port 1 to 1024
+2025-05-27 21:08:54,551 - port_scanner - INFO - [+] Port 80 is open
+2025-05-27 21:08:54,562 - port_scanner - INFO - [+] Port 234 is open
+2025-05-27 21:08:54,596 - port_scanner - INFO - Scan completed in 0:00:00.051252
+2025-05-27 21:20:52,317 - port_scanner - INFO - Scanning 172.18.0.2 from port 1 to 1024
+2025-05-27 21:22:11,467 - port_scanner - INFO - Scanning 172.18.0.2 from port 975 to 1025
+2025-05-27 21:23:02,548 - port_scanner - INFO - Scan completed in 0:00:51.081013
+2025-05-27 21:36:11,956 - port_scanner - INFO - Scanning 192.168.56.10 from port 8000 to 8000
+2025-05-27 21:36:12,960 - port_scanner - INFO - Scan completed in 0:00:01.001854
+2025-05-27 21:41:29,804 - port_scanner - INFO - Scanning 127.0.0.1 from port 8000 to 8000
+2025-05-27 21:41:29,807 - port_scanner - INFO - [+] Port 8000 is open
+2025-05-27 21:41:29,807 - port_scanner - INFO - Scan completed in 0:00:00.001104
+2025-05-27 22:55:21,210 - port_scanner - INFO - Scanning scanme.nmap.org from port 20 to 80
+2025-05-27 22:55:22,097 - port_scanner - INFO - [+] Port 22 is open
+2025-05-27 22:55:34,678 - port_scanner - INFO - [+] Port 80 is open
+2025-05-27 22:55:34,680 - port_scanner - INFO - Scan completed in 0:00:13.467441
+2025-05-27 23:03:14,339 - port_scanner - INFO - Scanning 192.168.56.10 from port 20 to 200
+2025-05-27 23:05:57,239 - port_scanner - INFO - Scanning 192.168.56.10 from port 9998 to 10000
+2025-05-27 23:06:00,244 - port_scanner - INFO - Scan completed in 0:00:03.004204
+2025-05-27 23:07:40,344 - port_scanner - INFO - Scanning 192.168.56.10 from port 9998 to 10000
+2025-05-27 23:07:43,349 - port_scanner - INFO - Scan completed in 0:00:03.004154
+2025-05-27 23:11:31,148 - port_scanner - INFO - Scanning 192.168.56.10 from port 9998 to 10000
+2025-05-27 23:11:34,155 - port_scanner - INFO - Scan completed in 0:00:03.004468
+2025-05-27 23:12:45,750 - port_scanner - INFO - Scanning 127.0.0.1 from port 9998 to 10000
+2025-05-27 23:12:45,753 - port_scanner - INFO - [+] Port 9999 is open
+2025-05-27 23:12:45,753 - port_scanner - INFO - Scan completed in 0:00:00.001363
+2025-05-27 23:15:24,887 - port_scanner - INFO - Scanning 127.0.0.1 from port 9999 to 9999
+2025-05-27 23:15:24,889 - port_scanner - INFO - [+] Port 9999 is open
+2025-05-27 23:15:24,890 - port_scanner - INFO - Scan completed in 0:00:00.000984
+2025-05-27 23:20:57,079 - port_scanner - INFO - Scanning 192.168.56.10 from port 9998 to 10000
+2025-05-27 23:21:00,084 - port_scanner - INFO - Scan completed in 0:00:03.003697
+2025-05-27 23:21:51,167 - port_scanner - INFO - Scanning 192.168.56.10 from port 9999 to 9999
+2025-05-27 23:21:52,170 - port_scanner - INFO - Scan completed in 0:00:01.001887
+2025-05-27 23:34:50,493 - port_scanner - INFO - Scanning 192.168.56.10 from port 2000 to 4000
+2025-05-27 23:36:50,870 - port_scanner - INFO - Scanning 192.168.56.10 from port 2995 to 3005
+2025-05-27 23:37:01,887 - port_scanner - INFO - Scan completed in 0:00:11.015786
+2025-05-27 23:42:01,521 - port_scanner - INFO - Scanning 192.168.56.10 from port 7999 to 8001
+2025-05-27 23:42:04,529 - port_scanner - INFO - Scan completed in 0:00:03.006357
+2025-05-27 23:44:48,316 - port_scanner - INFO - Scanning 192.168.56.10 from port 7999 to 8001
+2025-05-27 23:44:51,322 - port_scanner - INFO - Scan completed in 0:00:03.004302
+2025-05-27 23:46:00,375 - port_scanner - INFO - Scanning 192.168.56.10 from port 8000 to 8000
+2025-05-27 23:46:01,378 - port_scanner - INFO - Scan completed in 0:00:01.001694
+2025-05-28 00:08:53,882 - port_scanner - INFO - Scanning scanme.nmap.org from port 1 to 1024
+2025-05-28 00:08:58,335 - port_scanner - INFO - [+] Port 22 is open
+2025-05-28 00:09:10,946 - port_scanner - INFO - [+] Port 80 is open
+2025-05-28 00:11:11,102 - port_scanner - INFO - Scanning scanme.nmap.org from port 7999 to 8001
+2025-05-28 00:11:11,706 - port_scanner - INFO - Scan completed in 0:00:00.602906
+2025-05-28 00:11:26,331 - port_scanner - INFO - Scanning scanme.nmap.org from port 20 to 80
+2025-05-28 00:11:27,265 - port_scanner - INFO - [+] Port 22 is open
+2025-05-28 00:11:40,024 - port_scanner - INFO - [+] Port 80 is open
+2025-05-28 00:11:40,025 - port_scanner - INFO - Scan completed in 0:00:13.693805

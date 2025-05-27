@@ -117,3 +117,15 @@ You’ll be prompted to enter:
 
 > This tool is intended for **educational and authorized testing only**. Do not scan networks without explicit permission.
 
+
+
+
+## Steps to start the container for testing: 
+On the terminal do the following to build the network (test-net), boots the remote-host, and starts a Python HTTP server on 192.168.56.10:8000:
+-- docker compose up
+
+To shut down the container: 
+-- docker compose down 
+
+To let container run in the backgroud: (I use this most of the time)
+--docker compose up -d 
