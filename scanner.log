@@ -1,0 +1,7 @@
+2025-05-27 18:48:54,930 - port_scanner - INFO - Scanning 127.0.0.1 from port 100 to 255
+2025-05-27 18:48:54,941 - port_scanner - INFO - Scan completed in 0:00:00.010014
+2025-05-27 19:42:22,286 - port_scanner - INFO - Scanning 8.8.8.8 from port 20 to 55
+2025-05-27 20:01:30,605 - port_scanner - INFO - Scanning scanme.nmap.org from port 20 to 80
+2025-05-27 20:01:31,342 - port_scanner - INFO - [+] Port 22 is open
+2025-05-27 20:01:43,159 - port_scanner - INFO - [+] Port 80 is open
+2025-05-27 20:01:43,160 - port_scanner - INFO - Scan completed in 0:00:12.552273
