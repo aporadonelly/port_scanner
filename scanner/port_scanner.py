@@ -18,7 +18,7 @@ def scan_ports(target_ip, port_range=(1, 1024), timeout=1):
                 logger.info("[+] Port %s is open", port)
                 open_ports.append(port)
 
-    duration = datetime.now() - start_time  
+    duration = datetime.now() - start_time
     logger.info("Scan completed in %s", duration)
 
     return open_ports
