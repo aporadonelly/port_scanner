@@ -77,3 +77,8 @@
 2025-05-28 00:11:27,265 - port_scanner - INFO - [+] Port 22 is open
 2025-05-28 00:11:40,024 - port_scanner - INFO - [+] Port 80 is open
 2025-05-28 00:11:40,025 - port_scanner - INFO - Scan completed in 0:00:13.693805
+2025-05-28 09:51:44,960 - port_scanner - INFO - Scanning scanme.nmap.org from port 20 to 80
+2025-05-28 09:51:46,015 - port_scanner - INFO - [+] Port 21 is open
+2025-05-28 09:51:46,248 - port_scanner - INFO - [+] Port 22 is open
+2025-05-28 09:52:43,877 - port_scanner - INFO - [+] Port 80 is open
+2025-05-28 09:52:43,879 - port_scanner - INFO - Scan completed in 0:00:58.918984
