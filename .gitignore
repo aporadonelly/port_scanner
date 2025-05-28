@@ -8,3 +8,7 @@ venv/
 
 # Ignore logs
 *.log
+
+
+#ignore scanner logs
+scanner.logs
