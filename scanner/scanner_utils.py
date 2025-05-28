@@ -17,4 +17,4 @@ def parse_ip_input(ip_input):
         network = ipaddress.ip_network(ip_input, strict=False)
         return [str(ip) for ip in network.hosts()]
     except ValueError as exc:
-        raise ValueError("Invalid IP address or subnet.") from exc
+        raise ValueError("Invalid IP address or subnet.") from exc # exc is added to satisfy pylints warning "raise-missing-from"

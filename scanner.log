@@ -455,3 +455,13 @@
 2025-05-28 12:23:39,053 - port_scanner - INFO - Scanning 192.168.56.6 from port 20 to 80
 2025-05-28 12:24:26,150 - port_scanner - INFO - Scan completed in 0:00:47.096279
 2025-05-28 12:24:26,151 - port_scanner - INFO - Scanning 192.168.56.7 from port 20 to 80
+2025-05-28 12:25:13,260 - port_scanner - INFO - Scan completed in 0:00:47.107879
+2025-05-28 12:25:13,261 - port_scanner - INFO - Scanning 192.168.56.8 from port 20 to 80
+2025-05-28 12:26:00,357 - port_scanner - INFO - Scan completed in 0:00:47.094767
+2025-05-28 12:26:00,360 - port_scanner - INFO - Scanning 192.168.56.9 from port 20 to 80
+2025-05-28 12:26:47,466 - port_scanner - INFO - Scan completed in 0:00:47.105151
+2025-05-28 12:26:47,466 - port_scanner - INFO - Scanning 192.168.56.10 from port 20 to 80
+2025-05-28 12:26:47,469 - port_scanner - INFO - Scan completed in 0:00:00.002208
+2025-05-28 12:26:47,469 - port_scanner - INFO - Scanning 192.168.56.11 from port 20 to 80
+2025-05-28 12:27:34,566 - port_scanner - INFO - Scan completed in 0:00:47.096140
+2025-05-28 12:27:34,567 - port_scanner - INFO - Scanning 192.168.56.12 from port 20 to 80
