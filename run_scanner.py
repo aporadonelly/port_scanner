@@ -26,26 +26,26 @@ def main():
             else:
                 live_hosts = icmp_scan(target)
 
-            # print(f"\nActive hosts ({scan_type.upper()}):")
-            print(Fore.CYAN + f"\nActive hosts ({scan_type.upper()}):")
-            for host in live_hosts:
-                # print(f" - {host}")
-                  print(Fore.GREEN + f" - {host}")
-            return
+            if live_hosts:
+                print(Fore.CYAN + f"\nActive hosts ({scan_type.upper()}):")
+                for host in live_hosts:
+                    print(Fore.GREEN + f" - {host}")
+            else:
+                print(Fore.RED + "❌ No active hosts found.")
+            return  # ✅ Prevents TCP scan from running after ARP/ICMP
 
-        # TCP scan
+        # ✅ Only runs if scan_type == "tcp"
         port_input = input("Enter port range (e.g. 20-80, default: 1-1024): ").strip() or "1-1024"
         if "-" in port_input:
             port_start, port_end = parse_port_input(*port_input.split("-"))
         else:
-                port_start, port_end = parse_port_input(port_input, port_input)
+            port_start, port_end = parse_port_input(port_input, port_input)
 
         ip_list = parse_ip_input(target)
 
         for ip in ip_list:
-            print(f"\nScanning {ip}...")
+            print(Fore.CYAN + f"\n🔎 Scanning {ip}...")
             open_ports = scan_ports(ip, (port_start, port_end))
-            # print(f"Open ports on {ip}: {open_ports}")
             if open_ports:
                 print(Fore.GREEN + f"✅ Open ports on {ip}: {open_ports}")
             else:
@@ -55,7 +55,4 @@ def main():
         logger.warning("Scan interrupted by user (Ctrl+C)")
         print(Fore.RED + "\n⚠️ Scan canceled by user. Exiting gracefully...")
     except ValueError as e:
-        print(f"Error: {e}")
-
-if __name__ == "__main__":
-    main()
+        print(Fore.RED + f"Error: {e}")
