@@ -1,5 +1,6 @@
-# run_scanner.py
-from colorama import init, Fore, Style
+# pylint: disable=missing-module-docstring
+
+from colorama import init, Fore
 
 from scanner.scanner_utils import parse_port_input, parse_ip_input
 from scanner.port_scanner import scan_ports
@@ -11,8 +12,9 @@ init(autoreset=True) # autoreset=True ensures that styles don't bleed across lin
 logger = setup_logger()
 
 def main():
+    """Handles user input, initiates selected scan type, and displays results."""
     try:
-        print(Fore.CYAN + f"\n Welcome to the Python Port Scanner 🔎")
+        print(Fore.CYAN + "\n Welcome to the Python Port Scanner 🔎")
 
         scan_type = input("Choose scan type [tcp/arp/icmp] (default: tcp): ").strip().lower() or "tcp"
         while scan_type not in ["tcp", "arp", "icmp"]:
@@ -56,3 +58,6 @@ def main():
         print(Fore.RED + "\n⚠️ Scan canceled by user. Exiting gracefully...")
     except ValueError as e:
         print(Fore.RED + f"Error: {e}")
+
+if __name__ == "__main__":
+    main()

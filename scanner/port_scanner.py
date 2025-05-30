@@ -1,27 +1,31 @@
-# scanner/port_scanner.py
+# pylint: disable=missing-module-docstring
+
 import socket
 import time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
-from colorama import init, Fore, Style
 
 from scanner.logger import setup_logger
-
-init(autoreset=True) # autoreset=True ensures that styles don't bleed across lines.
 
 logger = setup_logger()
 
 def scan_port(ip, port, timeout=1):
+    """Attempts to connect to a single TCP port and logs if it's open."""
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
         sock.settimeout(timeout)
         result = sock.connect_ex((ip, port))
         if result == 0:
-            logger.info(f"[+] Port {port} is open on {ip}")
+            logger.info("[+] Port %s is open on %s)", port, ip)
             return port
     return None
 
 def scan_ports(target_ip, port_range=(1, 1024), timeout=1, max_threads=100, rate_limit=0.01):
-    logger.info(f"Starting scan on {target_ip} from port {port_range[0]} to {port_range[1]}")
+    """
+    Scans a range of TCP ports on the given IP using multithreading and rate limiting.
+    Returns:
+        list: Open ports found on the target IP.
+    """
+    logger.info("Starting scan on %s from port %s to %s", target_ip, port_range[0], port_range[1])
     start_time = datetime.now()
     open_ports = []
 
@@ -37,5 +41,5 @@ def scan_ports(target_ip, port_range=(1, 1024), timeout=1, max_threads=100, rate
                 open_ports.append(result)
 
     duration = datetime.now() - start_time
-    logger.info(f"Finished scan on {target_ip} in {duration}. Open ports: {open_ports}")
+    logger.info("Finished scan on %s in %s. Open ports: %s", target_ip, duration, open_ports)
     return sorted(open_ports)
